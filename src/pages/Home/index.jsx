@@ -32,7 +32,7 @@ function Home () {
                 <div className="container">
                     <div className="wrap-breadcrumb">
                         <ul>
-                            <li className="item-link"><Link href="/" className="link">Trang chử</Link></li>
+                            <li className="item-link"><Link href="/" className="link">Trang chủ</Link></li>
                             <li className="item-link"><span>{category}</span></li>
                         </ul>
                     </div>
