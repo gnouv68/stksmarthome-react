@@ -141,10 +141,10 @@ function Footer() {
                                             <div className="wrap-list-item social-network">
                                                 <ul>
                                                     {/*<li><a href="#" className="link-to-item" title="twitter"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>*/}
-                                                    <li><a href="#" className="link-to-item" title="facebook"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://www.facebook.com/profile.php?id=61550267722559" className="link-to-item" title="facebook"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                     {/*<li><a href="#" className="link-to-item" title="pinterest"><i className="fa fa-pinterest" aria-hidden="true"></i></a></li>*/}
                                                     {/*<li><a href="#" className="link-to-item" title="instagram"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>*/}
-                                                    {/*<li><a href="#" className="link-to-item" title="vimeo"><i className="fa fa-vimeo" aria-hidden="true"></i></a></li>*/}
+                                                    {/* <li><a href="#" className="link-to-item" title="vimeo"><i className="fa fa-zalo" aria-hidden="true"></i></a></li> */}
                                                 </ul>
                                             </div>
                                         </div>
