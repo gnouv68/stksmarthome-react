@@ -20,6 +20,7 @@ const productData = [
         name : 'Công tắc thông minh - hình vuông',
         img : cttm,
         imgs : [],
+        des : "abc"
     },
     {
         id : 2,
