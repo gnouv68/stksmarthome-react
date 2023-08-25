@@ -27,6 +27,7 @@ const productData = [
         name : 'Bộ trung tâm điều khiển Gateway',
         img : gateWay,
         imgs : [],
+        des : "abc123"
     },
     {
         id : 3,
