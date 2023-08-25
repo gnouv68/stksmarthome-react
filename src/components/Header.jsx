@@ -2,6 +2,7 @@
 import reactLogo from '../assets/images/logo.png'
 import {Link} from "react-router-dom";
 import {useState} from "react";
+import productData from "../datas/products.js";
 
 
 function Header () {
@@ -137,6 +138,16 @@ function Header () {
                                         <li className="menu-item">
                                             <Link to="/about-us" className="link-term mercado-item-title">Công trình đã làm</Link>
                                         </li>
+                                    </ul>
+
+                                    <ul className="nav primary clone-main-menu" id="mercado_main" data-menuname="Danh sách sản phẩm">
+                                        {productData.map(item => (
+
+                                            <li key={item.id} className="menu-item">
+                                                <Link to={`/product/${item.id}`}  className="link-term mercado-item-title">{item.name}</Link>
+                                            </li>
+
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
